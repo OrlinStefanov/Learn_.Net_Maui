@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Learn_.NET_MAUI.MainPage"
+             Title="Lessons">
+
+    <!-- <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#000005"/>
+    </Page.Behaviors> -->
+
+    <ContentPage.Background>
+
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#512bd4"
+                          Offset="0.05" />
+            <GradientStop Color="#202ef6"
+                          Offset="0.65" />
+            <GradientStop Color="#512bd4"
+                          Offset="1.0" />
+        </LinearGradientBrush>
+
+    </ContentPage.Background>
+    <ScrollView>
+
+        <VerticalStackLayout>
+
+            <!-- .NET MAUI Selections -->
+
+            <Grid WidthRequest="500" HeightRequest="1000">
+
+                <Label Text="Learn .NET MAUI" HorizontalOptions="Center" Margin="0,50,0,0" TextColor="White" FontSize="22"/>
+
+                <Grid x:Name="SelectionsGrid" WidthRequest="390" HeightRequest="550" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,250,0,0">
+                    <!--User Interface-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
+                    <Label Text="User Interface" TextColor="#202ef6" FontSize="17" HorizontalOptions="Start" Margin="40,10,0,0"/>
+                    <ProgressBar x:Name="progresUS" WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Start" Margin="20,40,0,0"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="ui_img.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="40,60,0,0"/>
+                    <Button x:Name="UserInterfaceBtn" Clicked="UserInterfaceBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
+
+                    <!--Fundaments-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
+                    <Label Text="Fundaments" TextColor="#202ef6" FontSize="17" HorizontalOptions="End" Margin="0,10,45,0"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Start" Margin="0,40,20,0"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="fundaments_img.png" HorizontalOptions="End" VerticalOptions="Start" Margin="0,60,45,0"/>
+                    <Button x:Name="FundamentsBtn" Clicked="FundamentsBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
+
+                    <!--Basic C#-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Label Text="Basic C#" TextColor="#512bd4" FontSize="17" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,130"/>
+                    <ProgressBar x:Name="progresC" WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,90"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="csharp_logo.png" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,30,0,0"/>
+                    <Button x:Name="Fundamentals2Btn" Clicked="Fundamentals2Btn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                </Grid>
+
+            </Grid>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

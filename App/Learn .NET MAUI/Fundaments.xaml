@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Learn_.NET_MAUI.Fundaments"
+            Title="Fundaments">
+
+    <ContentPage.Background>
+
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#512bd4"
+                          Offset="0.05" />
+            <GradientStop Color="#202ef6"
+                          Offset="0.65" />
+            <GradientStop Color="#512bd4"
+                          Offset="1.0" />
+        </LinearGradientBrush>
+
+    </ContentPage.Background>
+
+    <ScrollView>
+
+        <VerticalStackLayout>
+
+            <!-- .NET MAUI Selections -->
+
+            <Grid WidthRequest="500" HeightRequest="1000">
+
+                <Label Text="Fundaments" HorizontalOptions="Center" Margin="0,50,0,0" TextColor="White" FontSize="22"/>
+
+                <Grid x:Name="SelectionsGrid" WidthRequest="390" HeightRequest="550" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,250,0,0">
+
+                    <!--First Steps-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
+                    <Label Text="First Steps" TextColor="#202ef6" FontSize="17" HorizontalOptions="Start" Margin="55,10,0,0"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Start" Margin="20,40,0,0"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="firststeps_img.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="40,60,0,0"/>
+                    <Button x:Name="FistStepsBtn" Clicked="FistStepsBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
+
+                    <!--Templates-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
+                    <Label Text="Templates" TextColor="#202ef6" FontSize="17" HorizontalOptions="End" Margin="0,10,55,0"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Start" Margin="0,40,20,0"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="templates_img.png" HorizontalOptions="End" VerticalOptions="Start" Margin="0,60,45,0"/>
+                    <Button x:Name="LayoutsBtn" Clicked="TemplatesBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
+
+                    <!--Data Binding-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Label Text="Data Binding" TextColor="#202ef6" FontSize="17" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,140"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,95"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="databinding_img.png" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,30,0,0"/>
+                    <Button x:Name="ViewsPart2Btn" Clicked="DataBindingBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                    <!--Data saving-->
+                    <Button Text="DataSaving" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+                </Grid>
+
+            </Grid>
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>
