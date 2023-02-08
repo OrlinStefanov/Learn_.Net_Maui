@@ -32,7 +32,7 @@
 
                 <Grid WidthRequest="430" HeightRequest="210" HorizontalOptions="Center" VerticalOptions="Start">
 
-                    <Label Style="{StaticResource label}" Text="Code Legend" FontSize="18" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,75,0,0"/>
+                    <Label Style="{StaticResource label}" Text="Learn .NET MAUI" FontSize="18" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,75,0,0"/>
 
                     <Label Style="{StaticResource label}" Text="Version: 1.2v" FontSize="14" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,130,0,0"/>
 
@@ -40,17 +40,9 @@
 
                     <Grid BackgroundColor="Transparent" WidthRequest="70" HeightRequest="70" VerticalOptions="Start" Margin="0,30,0,0">
 
-                        <Border Stroke="#0000cd"
-                                StrokeThickness="1">
-                            <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="10,10,10,10"/>
-                            </Border.StrokeShape>
-                        </Border>
-
-                        <Image Source="about_app_logo.png" WidthRequest="50" HeightRequest="50"/>
-
+                        <Image Source="about_app_logo.png" WidthRequest="60" HeightRequest="60"/>
                     </Grid>
-
+                    
                 </Grid>
 
                 <Grid Margin="0,0,0,0" WidthRequest="300" HeightRequest="650" VerticalOptions="End" HorizontalOptions="Center">

@@ -22,7 +22,7 @@ public partial class Settings : ContentPage
 
         try
         {
-            numberLessons.Text = await SecureStorage.GetAsync("numL") + "/15";
+            numberLessons.Text = await SecureStorage.GetAsync("numL") + "/16";
         } catch
         {
 
@@ -92,12 +92,16 @@ public partial class Settings : ContentPage
         if (num == 1)
         {
             Application.Current.UserAppTheme = AppTheme.Dark;
+            aboutImg.Source = "right_forward_white.png";
+            singOutImg.Source = "right_forward_white.png";
         }
 
         if (num == 2)
         {
             Application.Current.UserAppTheme = AppTheme.Light;
             num = 0;
+            aboutImg.Source = "right_forward.png";
+            singOutImg.Source = "right_forward.png";
         }
     }
 
@@ -113,6 +117,18 @@ public partial class Settings : ContentPage
         num = Convert.ToInt16(await SecureStorage.GetAsync("num"));
 
         slider.IsToggled = Convert.ToBoolean(await SecureStorage.GetAsync("switch"));
+
+        if (Application.Current.UserAppTheme == AppTheme.Dark)
+        {
+            aboutImg.Source = "right_forward_white.png";
+            singOutImg.Source = "right_forward_white.png";
+        }
+
+        if (Application.Current.UserAppTheme == AppTheme.Light)
+        {
+            aboutImg.Source = "right_forward.png";
+            singOutImg.Source = "right_forward.png";
+        }
     }
 
     private async void SaveUser(string name)

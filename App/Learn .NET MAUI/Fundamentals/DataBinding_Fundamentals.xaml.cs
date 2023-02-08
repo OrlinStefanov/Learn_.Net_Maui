@@ -38,7 +38,23 @@ public partial class DataBinding_Fundamentals : ContentPage
         questions.CheckTheme(num);
     }
 
-    private async void NextBtn_Clicked(object sender, EventArgs e)
+	protected override void OnDisappearing()
+	{
+		base.OnDisappearing();
+
+		UserInterfaceData u = new UserInterfaceData();
+
+		if (clicks >= headText.Length - 1)
+		{
+			u.SaveData("databinding", "True");
+		}
+		else
+		{
+			u.SaveData("databinding", "False");
+		}
+	}
+
+	private async void NextBtn_Clicked(object sender, EventArgs e)
     {
         clicks++;
 

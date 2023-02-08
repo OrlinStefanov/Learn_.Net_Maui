@@ -12,7 +12,7 @@ namespace Learn_.NET_MAUI
 
 		public async void LoadUserInterface(ProgressBar p)
 		{
-			string[] names = { "views2", "views1", "pages", "layouts", "firstSteps" };
+			string[] names = { "views2", "views1", "pages", "layouts", "firstSteps", "lgb" };
 
 			p.Progress = 0;
 
@@ -22,7 +22,7 @@ namespace Learn_.NET_MAUI
 
 				if (sth == "True")
 				{
-					p.Progress += 0.2f;
+					p.Progress += 0.166f;
 
 					numLessons++;
 					await SecureStorage.SetAsync("numL", numLessons.ToString());
@@ -45,6 +45,27 @@ namespace Learn_.NET_MAUI
 					c.Progress += 0.14f;
 
 					numLessons++;
+					await SecureStorage.SetAsync("numL", numLessons.ToString());
+				}
+			}
+		}
+
+		public async void LoadFundaments(ProgressBar f)
+		{
+			string[] names = { "templates", "databinding", "datasaving" };
+
+			f.Progress = 0;
+
+			for (int i = 0; i < names.Length; i ++)
+			{
+				string sth = await SecureStorage.GetAsync(names[i]);
+
+				if (sth == "True")
+				{
+					f.Progress += 0.33;
+
+					numLessons++;
+
 					await SecureStorage.SetAsync("numL", numLessons.ToString());
 				}
 			}

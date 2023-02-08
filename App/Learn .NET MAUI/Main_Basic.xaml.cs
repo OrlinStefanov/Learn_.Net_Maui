@@ -17,7 +17,7 @@ public partial class Main_Basic : ContentPage
 		{
 			UserInterfaceData u = new UserInterfaceData();
 
-            u.LoadData("method", progresMethod);
+            u.LoadData("methods", progresMethod);
 
             u.LoadData("fs", progresFs);
 
@@ -29,7 +29,8 @@ public partial class Main_Basic : ContentPage
 
             u.LoadData("variables", progresVariables);
 
-            //u.LoadData("syntax", progresVariables);
+            u.LoadData("syntax", progresSyntax);
+
 		}
 		catch
 		{

@@ -63,10 +63,13 @@ controls_basic.scale-100.png
 csharp_logo.scale-100.png
 dark_mode.scale-100.png
 databinding_img.scale-100.png
+datasaving.scale-100.png
 datatime_basic.scale-100.png
 datepicker.scale-100.png
 elements_basic.scale-100.png
+endtype_img.scale-100.png
 events_basic.scale-100.png
+filepicker_fun.scale-100.png
 filestream_basic.scale-100.jpg
 first_steps.scale-100.png
 firststeps_img.scale-100.png
@@ -76,6 +79,7 @@ for_basic.scale-100.jpg
 frame.scale-100.png
 fundaments_img.scale-100.png
 grid.scale-100.png
+hlg.scale-100.png
 home_btn.scale-100.png
 horizontallayout.scale-100.png
 if_else_basic.scale-100.png
@@ -84,6 +88,9 @@ input_basic.scale-100.png
 int_basic.scale-100.png
 label.scale-100.png
 layouts_img.scale-100.png
+ldmode_fun.scale-100.png
+lgb_icon.scale-100.png
+lgb_img.scale-100.png
 listbox_basic.scale-100.jpg
 math1_basic.scale-100.png
 math2_basic.scale-100.png
@@ -97,7 +104,9 @@ picker.scale-100.png
 progressbar.scale-100.png
 radiobutton.scale-100.png
 right_forward.scale-100.png
+right_forward_white.scale-100.png
 searchbar.scale-100.png
+securestorage_fun.scale-100.png
 settings_img.scale-100.png
 sign_out.scale-100.png
 stacklayout.scale-100.png
@@ -105,6 +114,7 @@ streamreader_basic.scale-100.png
 string_basic.scale-100.png
 switch_basic.scale-100.png
 syntax_basic.scale-100.png
+syntax_img.scale-100.png
 tabbedpage.scale-100.png
 templates_img.scale-100.png
 test_img.scale-100.png
@@ -118,6 +128,7 @@ variables_basic.scale-100.jpg
 version_img.scale-100.png
 verticallayout.scale-100.png
 views_img.scale-100.png
+vlg.scale-100.png
 while_basic.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png

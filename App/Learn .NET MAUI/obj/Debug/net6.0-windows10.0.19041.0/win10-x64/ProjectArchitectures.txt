@@ -1,1 +1,1 @@
-D:\Orlin programs\Maui C#\Application-main\Learn .NET MAUI\Learn .NET MAUI\Learn .NET MAUI.csproj;x64
+D:\Програмиране 1\Learn_.Net_Maui-main\App\Learn .NET MAUI\Learn .NET MAUI.csproj;x64

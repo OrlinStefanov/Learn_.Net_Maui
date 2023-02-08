@@ -10,7 +10,7 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
 
-        var result = new NotificationRequest
+        /*var result = new NotificationRequest
         {
             NotificationId = 1337,
             Title = "Come back and learn more about .NET MAUI",
@@ -23,7 +23,7 @@ public partial class MainPage : ContentPage
             }
         };
 
-        LocalNotificationCenter.Current.Show(result);
+        LocalNotificationCenter.Current.Show(result);*/
     }
 
 	protected override void OnAppearing()
@@ -36,6 +36,7 @@ public partial class MainPage : ContentPage
         {
             s.LoadUserInterface(progresUS);
             s.LoadBasicC(progresC);
+            s.LoadFundaments(progressF);
 
         } catch (Exception ex)
         {

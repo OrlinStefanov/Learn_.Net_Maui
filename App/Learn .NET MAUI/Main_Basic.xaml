@@ -27,13 +27,21 @@
 
                 <Label Text="Basic C#" HorizontalOptions="Center" Margin="0,50,0,0" TextColor="White" FontSize="22"/>
 
+                <!--First Steps-->
+                <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="Start" Margin="0,155,0,0"/>
+                <Label Text="First Steps" TextColor="#202ef6" FontSize="17" HorizontalOptions="Center" Margin="5,160,0,0"/>
+                <ProgressBar x:Name="progresFs" WidthRequest="150" BackgroundColor="Transparent" ProgressColor="Lime" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,190,0,0"/>
+                <ImageButton WidthRequest="100" HeightRequest="100" Source="firststeps_img.png" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,210,0,0"/>
+                <Button Clicked="Button_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,155,0,0"/>
+
                 <Grid x:Name="SelectionsGrid" WidthRequest="390" HeightRequest="550" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,250,0,0">
-                    <!--First Steps-->
-                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
-                    <Label Text="First Steps" TextColor="#202ef6" FontSize="17" HorizontalOptions="Start" Margin="55,10,0,0"/>
-                    <ProgressBar x:Name="progresFs" WidthRequest="150" BackgroundColor="Transparent" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Start" Margin="20,40,0,0"/>
-                    <ImageButton WidthRequest="100" HeightRequest="100" Source="firststeps_img.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="40,60,0,0"/>
-                    <Button Clicked="Button_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
+
+                    <!--Syntax-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
+                    <Label Text="Syntax" TextColor="#202ef6" FontSize="17" HorizontalOptions="Start" Margin="65,10,0,0"/>
+                    <ProgressBar x:Name="progresSyntax" WidthRequest="150" BackgroundColor="Transparent" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Start" Margin="20,40,0,0"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="syntax_img.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="40,60,0,0"/>
+                    <Button Clicked="Button_Clicked_6" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
 
                     <!--Variables-->
                     <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
@@ -43,7 +51,7 @@
                     <Button Clicked="Button_Clicked_1" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
 
                     <!--Methods-->
-                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Center" Margin="10,0,0,0"/>
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Center" Margin="10,0,0,0"/>
                     <Label Text="Methods" TextColor="#512bd4" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center" Margin="60,0,0,130"/>
                     <ProgressBar x:Name="progresMethod" WidthRequest="150" BackgroundColor="Transparent" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Center" Margin="20,0,0,90"/>
                     <ImageButton WidthRequest="100" HeightRequest="100" Source="methods_img.png" HorizontalOptions="Start" VerticalOptions="Center" Margin="45,35,0,0"/>
@@ -70,12 +78,8 @@
                     <ImageButton WidthRequest="100" HeightRequest="100" Source="events_basic.png" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,45,20"/>
                     <Button Clicked="Button_Clicked_5" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="End" Margin="0,0,10,0"/>
 
-                    <!--Syntax-->
-                    <Button Text="Syntax" HorizontalOptions="Center" Clicked="Button_Clicked_6"/>
                 </Grid>
-
             </Grid>
-
 
         </VerticalStackLayout>
 

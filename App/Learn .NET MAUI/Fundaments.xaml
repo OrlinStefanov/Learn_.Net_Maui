@@ -6,6 +6,7 @@
 
     <ContentPage.Background>
 
+        <!-- StartPoint defaults to (0,0) -->
         <LinearGradientBrush EndPoint="0,1">
             <GradientStop Color="#512bd4"
                           Offset="0.05" />
@@ -14,8 +15,8 @@
             <GradientStop Color="#512bd4"
                           Offset="1.0" />
         </LinearGradientBrush>
-
     </ContentPage.Background>
+
 
     <ScrollView>
 
@@ -39,19 +40,23 @@
                     <!--Templates-->
                     <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
                     <Label Text="Templates" TextColor="#202ef6" FontSize="17" HorizontalOptions="End" Margin="0,10,55,0"/>
-                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Start" Margin="0,40,20,0"/>
+                    <ProgressBar x:Name="progressT" WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Start" Margin="0,40,20,0"/>
                     <ImageButton WidthRequest="100" HeightRequest="100" Source="templates_img.png" HorizontalOptions="End" VerticalOptions="Start" Margin="0,60,45,0"/>
-                    <Button x:Name="LayoutsBtn" Clicked="TemplatesBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
+                    <Button x:Name="TemplatesBtn" Clicked="TemplatesBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
 
                     <!--Data Binding-->
-                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="Center"/>
-                    <Label Text="Data Binding" TextColor="#202ef6" FontSize="17" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,140"/>
-                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,95"/>
-                    <ImageButton WidthRequest="100" HeightRequest="100" Source="databinding_img.png" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,30,0,0"/>
-                    <Button x:Name="ViewsPart2Btn" Clicked="DataBindingBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Center" Margin="10,0,0,0"/>
+                    <Label Text="Data Binding" TextColor="#202ef6" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center" Margin="45,0,0,130"/>
+                    <ProgressBar x:Name="progressDB" WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Center" Margin="20,0,0,90"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="databinding_img.png" HorizontalOptions="Start" VerticalOptions="Center" Margin="45,35,0,0"/>
+                    <Button x:Name="ViewsPart2Btn" Clicked="DataBindingBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="Center" Margin="10,0,0,0"/>
 
                     <!--Data saving-->
-                    <Button Text="DataSaving" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,10,0"/>
+                    <Label Text="Data saving" TextColor="#512cd4" FontSize="17" HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,50,130"/>
+                    <ProgressBar x:Name="progresDS" WidthRequest="150" BackgroundColor="Transparent" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,20,90"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="datasaving.png" HorizontalOptions="End" VerticalOptions="Center" Margin="0,35,40,0"/>
+                    <Button Clicked="Button_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,10,0"/>
                 </Grid>
 
             </Grid>

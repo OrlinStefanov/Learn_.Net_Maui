@@ -15,9 +15,11 @@ obj\Release\net6.0-android\resizetizer\r\drawable\csharp_logo.png
 obj\Release\net6.0-android\resizetizer\r\drawable\c_meaning.png
 obj\Release\net6.0-android\resizetizer\r\drawable\dark_mode.png
 obj\Release\net6.0-android\resizetizer\r\drawable\databinding_img.png
+obj\Release\net6.0-android\resizetizer\r\drawable\datasaving.png
 obj\Release\net6.0-android\resizetizer\r\drawable\datatime_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable\datepicker.png
 obj\Release\net6.0-android\resizetizer\r\drawable\elements_basic.png
+obj\Release\net6.0-android\resizetizer\r\drawable\endtype_img.png
 obj\Release\net6.0-android\resizetizer\r\drawable\events_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable\filepicker_fun.png
 obj\Release\net6.0-android\resizetizer\r\drawable\filestream_basic.jpg
@@ -29,6 +31,7 @@ obj\Release\net6.0-android\resizetizer\r\drawable\for_basic.jpg
 obj\Release\net6.0-android\resizetizer\r\drawable\frame.png
 obj\Release\net6.0-android\resizetizer\r\drawable\fundaments_img.png
 obj\Release\net6.0-android\resizetizer\r\drawable\grid.png
+obj\Release\net6.0-android\resizetizer\r\drawable\hlg.png
 obj\Release\net6.0-android\resizetizer\r\drawable\home_btn.png
 obj\Release\net6.0-android\resizetizer\r\drawable\horizontallayout.png
 obj\Release\net6.0-android\resizetizer\r\drawable\if_else_basic.png
@@ -38,6 +41,8 @@ obj\Release\net6.0-android\resizetizer\r\drawable\int_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable\label.png
 obj\Release\net6.0-android\resizetizer\r\drawable\layouts_img.png
 obj\Release\net6.0-android\resizetizer\r\drawable\ldmode_fun.png
+obj\Release\net6.0-android\resizetizer\r\drawable\lgb_icon.png
+obj\Release\net6.0-android\resizetizer\r\drawable\lgb_img.png
 obj\Release\net6.0-android\resizetizer\r\drawable\listbox_basic.jpg
 obj\Release\net6.0-android\resizetizer\r\drawable\math1_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable\math2_basic.png
@@ -51,6 +56,7 @@ obj\Release\net6.0-android\resizetizer\r\drawable\picker.png
 obj\Release\net6.0-android\resizetizer\r\drawable\progressbar.png
 obj\Release\net6.0-android\resizetizer\r\drawable\radiobutton.png
 obj\Release\net6.0-android\resizetizer\r\drawable\right_forward.png
+obj\Release\net6.0-android\resizetizer\r\drawable\right_forward_white.png
 obj\Release\net6.0-android\resizetizer\r\drawable\searchbar.png
 obj\Release\net6.0-android\resizetizer\r\drawable\securestorage_fun.png
 obj\Release\net6.0-android\resizetizer\r\drawable\settings_img.png
@@ -60,6 +66,7 @@ obj\Release\net6.0-android\resizetizer\r\drawable\streamreader_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable\string_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable\switch_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable\syntax_basic.png
+obj\Release\net6.0-android\resizetizer\r\drawable\syntax_img.png
 obj\Release\net6.0-android\resizetizer\r\drawable\tabbedpage.png
 obj\Release\net6.0-android\resizetizer\r\drawable\templates_img.png
 obj\Release\net6.0-android\resizetizer\r\drawable\test_img.png
@@ -73,6 +80,7 @@ obj\Release\net6.0-android\resizetizer\r\drawable\variables_basic.jpg
 obj\Release\net6.0-android\resizetizer\r\drawable\version_img.png
 obj\Release\net6.0-android\resizetizer\r\drawable\verticallayout.png
 obj\Release\net6.0-android\resizetizer\r\drawable\views_img.png
+obj\Release\net6.0-android\resizetizer\r\drawable\vlg.png
 obj\Release\net6.0-android\resizetizer\r\drawable\while_basic.png
 obj\Release\net6.0-android\resizetizer\r\drawable-hdpi\splash.png
 obj\Release\net6.0-android\resizetizer\r\drawable-mdpi\splash.png

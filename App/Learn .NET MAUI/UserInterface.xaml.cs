@@ -27,6 +27,8 @@ public partial class UserInterface : ContentPage
 
             u.LoadData("views2", progressV2);
 
+            u.LoadData("lgb", progressLGB);
+
 		} catch {
             
         }
@@ -55,5 +57,10 @@ public partial class UserInterface : ContentPage
     private async void ViewsPart2Btn_Clicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new ViewsP2_UserInterface());
+    }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new LGB());
     }
 }

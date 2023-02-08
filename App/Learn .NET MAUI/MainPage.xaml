@@ -41,7 +41,7 @@
                     <!--Fundaments-->
                     <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
                     <Label Text="Fundaments" TextColor="#202ef6" FontSize="17" HorizontalOptions="End" Margin="0,10,45,0"/>
-                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Start" Margin="0,40,20,0"/>
+                    <ProgressBar x:Name="progressF" WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Start" Margin="0,40,20,0"/>
                     <ImageButton WidthRequest="100" HeightRequest="100" Source="fundaments_img.png" HorizontalOptions="End" VerticalOptions="Start" Margin="0,60,45,0"/>
                     <Button x:Name="FundamentsBtn" Clicked="FundamentsBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
 

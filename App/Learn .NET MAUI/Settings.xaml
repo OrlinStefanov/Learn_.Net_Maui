@@ -46,7 +46,7 @@
 
                     <ImageButton x:Name="profileImg" Clicked="ImageButton_Clicked" Source="user.png" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,50,0,0" CornerRadius="60"/>
 
-                    <Entry Style="{StaticResource entry}" Placeholder="Username" x:Name="profileName" TextChanged="Entry_TextChanged" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,50,0,0"/>
+                    <Entry Style="{StaticResource entry}" Placeholder="Username" x:Name="profileName" TextChanged="Entry_TextChanged" FontSize="15" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,50,0,0"/>
 
                     <Button BackgroundColor="Transparent" Style="{StaticResource btn}" BorderColor="MediumBlue" BorderWidth="1.5" Text="Begginer" FontSize="12" WidthRequest="100" HeightRequest="45" CornerRadius="20" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,30"/>
 
@@ -59,7 +59,7 @@
 
                         <Button Style="{StaticResource label}" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="1" CornerRadius="0" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="195" HeightRequest="75"/>
 
-                        <Label Style="{StaticResource label}" x:Name="numberLessons" Text="0/15" HorizontalOptions="Center" VerticalOptions="Center" Margin="-40,0,0,20"/>
+                        <Label Style="{StaticResource label}" x:Name="numberLessons" Text="0/16" HorizontalOptions="Center" VerticalOptions="Center" Margin="-40,0,0,20"/>
 
                         <Label Style="{StaticResource label}" Text="Lessons" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Margin="-40,20,0,0"/>
 
@@ -112,7 +112,7 @@
                             <!--About-->
                             <Image Source="about.png" WidthRequest="30" HeightRequest="30" HorizontalOptions="Start" VerticalOptions="End" Margin="0,0,0,-3"/>
                             <Label Text="About this app" FontSize="18" VerticalOptions="End" Margin="50,0,0,0"/>
-                            <Image Source="right_forward.png" WidthRequest="20" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="End" Margin="190,0,0,0"/>
+                            <Image x:Name="aboutImg" Source="right_forward.png" WidthRequest="20" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="End" Margin="190,0,0,0"/>
                             <Button x:Name="AboutBtn" Clicked="AboutBtn_Clicked" BackgroundColor="Transparent" BorderWidth="0" WidthRequest="300" HeightRequest="40" HorizontalOptions="Center" VerticalOptions="End" Margin="50,0,60,0"/>
 
                         </Grid>
@@ -127,7 +127,7 @@
                             <!--Sing out-->
                             <Image Source="sign_out.png" WidthRequest="30" HeightRequest="30" HorizontalOptions="Start" VerticalOptions="Center" Margin="0,25,0,0"/>
                             <Label Text="Sign out" FontSize="18" VerticalOptions="Center" Margin="50,25,0,0"/>
-                            <Image Source="right_forward.png" WidthRequest="20" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="Center" Margin="190,25,0,0"/>
+                            <Image x:Name="singOutImg" Source="right_forward.png" WidthRequest="20" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="Center" Margin="190,25,0,0"/>
                             <Button BackgroundColor="Transparent" BorderWidth="0" WidthRequest="300" HeightRequest="40" HorizontalOptions="Center" VerticalOptions="Center" Margin="50,25,90,0" Clicked="Button_Clicked"/>
 
                         </Grid>

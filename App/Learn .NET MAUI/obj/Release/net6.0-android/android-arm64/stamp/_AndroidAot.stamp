@@ -32,14 +32,9 @@ obj\Release\net6.0-android\android-arm64\aot\Xamarin.AndroidX.RecyclerView.dll.s
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.AndroidX.SavedState.dll.so
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.AndroidX.Security.SecurityCrypto.dll.so
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.AndroidX.SwipeRefreshLayout.dll.so
-obj\Release\net6.0-android\android-arm64\aot\Xamarin.AndroidX.VersionedParcelable.dll.so
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.AndroidX.ViewPager.dll.so
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.AndroidX.ViewPager2.dll.so
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.Google.Android.Material.dll.so
-obj\Release\net6.0-android\android-arm64\aot\Xamarin.GooglePlayServices.Base.dll.so
-obj\Release\net6.0-android\android-arm64\aot\Xamarin.GooglePlayServices.Basement.dll.so
-obj\Release\net6.0-android\android-arm64\aot\Xamarin.GooglePlayServices.Location.dll.so
-obj\Release\net6.0-android\android-arm64\aot\Xamarin.GooglePlayServices.Tasks.dll.so
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.Kotlin.StdLib.dll.so
 obj\Release\net6.0-android\android-arm64\aot\Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 obj\Release\net6.0-android\android-arm64\aot\System.Collections.Concurrent.dll.so
@@ -64,8 +59,6 @@ obj\Release\net6.0-android\android-arm64\aot\System.Runtime.CompilerServices.Uns
 obj\Release\net6.0-android\android-arm64\aot\System.Runtime.dll.so
 obj\Release\net6.0-android\android-arm64\aot\System.Security.Cryptography.Algorithms.dll.so
 obj\Release\net6.0-android\android-arm64\aot\System.Security.Cryptography.Primitives.dll.so
-obj\Release\net6.0-android\android-arm64\aot\System.Text.Encodings.Web.dll.so
-obj\Release\net6.0-android\android-arm64\aot\System.Text.Json.dll.so
 obj\Release\net6.0-android\android-arm64\aot\System.Text.RegularExpressions.dll.so
 obj\Release\net6.0-android\android-arm64\aot\System.Threading.Thread.dll.so
 obj\Release\net6.0-android\android-arm64\aot\System.Threading.dll.so

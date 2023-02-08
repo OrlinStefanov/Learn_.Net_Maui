@@ -9,7 +9,25 @@ public partial class Fundaments : ContentPage
         InitializeComponent();
     }
 
-    private async void TemplatesBtn_Clicked(object sender, EventArgs e)
+	protected override void OnAppearing()
+	{
+		base.OnAppearing();
+
+		try
+		{
+			UserInterfaceData u = new UserInterfaceData();
+
+			u.LoadData("templates", progressT);
+			u.LoadData("databinding", progressDB);
+			u.LoadData("datasaving", progresDS);
+		}
+		catch
+		{
+
+		}
+	}
+
+	private async void TemplatesBtn_Clicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new Templates_Fundamentals());
     }
@@ -28,4 +46,9 @@ public partial class Fundaments : ContentPage
 	{
         await Navigation.PushAsync(new DataSaving());
 	}
+
+    private void Button_Clicked_1(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -25,6 +25,8 @@
 
             <Grid WidthRequest="500" HeightRequest="1000">
 
+                <Label Text="Tests" HorizontalOptions="Center" Margin="0,50,0,0" TextColor="White" FontSize="22"/>
+
                 <Grid x:Name="SelectionsGrid" WidthRequest="390" HeightRequest="550" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,250,0,0">
                     <!--UI Test 1-->
                     <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>

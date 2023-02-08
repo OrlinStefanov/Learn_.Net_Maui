@@ -36,6 +36,22 @@ public partial class DataSaving : ContentPage
 		questions.QuestionsChange(0, headText, mainText, img, First_Text, Second_Text, IMage1, headText.Length);
 		questions.CheckTheme(num);
 	}
+	protected override void OnDisappearing()
+	{
+		base.OnDisappearing();
+
+		UserInterfaceData u = new UserInterfaceData();
+
+		if (clicks >= headText.Length - 1)
+		{
+			u.SaveData("datasaving", "True");
+		}
+		else
+		{
+			u.SaveData("datasaving", "False");
+		}
+	}
+
 
 	private async void NextBtn_Clicked(object sender, EventArgs e)
 	{

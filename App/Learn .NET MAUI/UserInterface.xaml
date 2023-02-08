@@ -57,12 +57,18 @@
                     <Button x:Name="ViewsPart1Btn" Clicked="ViewsPart1Btn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,10,0"/>
 
                     <!--Views Part 2-->
-                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="End"/>
-                    <Label Text="Views Part 2" TextColor="#202ef6" FontSize="17" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,140"/>
-                    <ProgressBar x:Name="progressV2" WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,115"/>
-                    <ImageButton WidthRequest="100" HeightRequest="100" Source="views_img.png" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,20"/>
-                    <Button x:Name="ViewsPart2Btn" Clicked="ViewsPart2Btn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="End"/>
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="End" Margin="10,0,0,0"/>
+                    <Label Text="Views Part 2" TextColor="#202ef6" FontSize="17" HorizontalOptions="Start" VerticalOptions="End" Margin="45,0,0,140"/>
+                    <ProgressBar x:Name="progressV2" WidthRequest="150" BackgroundColor="Transparent" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="End" Margin="20,0,0,125"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="views_img.png" HorizontalOptions="Start" VerticalOptions="End" Margin="40,0,0,20"/>
+                    <Button Clicked="ViewsPart2Btn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170" HorizontalOptions="Start" VerticalOptions="End"/>
 
+                    <!--LinearGradientBrush-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="End" Margin="0,0,10,0"/>
+                    <Label Text="LinearGradientBrush" TextColor="#202ef6" FontSize="17" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,11,140"/>
+                    <ProgressBar x:Name="progressLGB" WidthRequest="150" BackgroundColor="Transparent" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,20,125"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="lgb_icon.png" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,45,20"/>
+                    <Button Clicked="Button_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="End" Margin="0,0,10,0"/>
 
                 </Grid>
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qaFLxtzWnrxiZ3TegrLogJLWZiunZptfxRBLWBWDmLrk3yOu0bUf7GJfxAOP9WH2jQenxx0naTaiEqr7EbmuMg==",
+  "dgSpecHash": "84RlYQfWLsR+kA2LmV8LZ01NDmFj0eCx0xAk8sol7oybKByuBipLtbMPU/ahqXurQO4BN4DfZmj99cwxmJSBIw==",
   "success": true,
-  "projectFilePath": "D:\\Orlin programs\\Maui C#\\Application-main\\Learn .NET MAUI\\Learn .NET MAUI\\Learn .NET MAUI.csproj",
+  "projectFilePath": "D:\\Orlin programs\\Maui C#\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orlin Stefanov\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Orlin Stefanov\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
