@@ -48,7 +48,7 @@
 
                     <Entry Style="{StaticResource entry}" Placeholder="Username" x:Name="profileName" TextChanged="Entry_TextChanged" FontSize="15" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,50,0,0"/>
 
-                    <Button BackgroundColor="Transparent" Style="{StaticResource btn}" BorderColor="MediumBlue" BorderWidth="1.5" Text="Begginer" FontSize="12" WidthRequest="100" HeightRequest="45" CornerRadius="20" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,30"/>
+                    <Button x:Name="statusBtn" BackgroundColor="Transparent" Style="{StaticResource btn}" BorderColor="MediumBlue" BorderWidth="1.5" Text="Begginer" FontSize="12" WidthRequest="100" HeightRequest="45" CornerRadius="20" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,30"/>
 
                 </Grid>
 
@@ -70,7 +70,7 @@
 
                         <Button Style="{StaticResource label}" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="1" CornerRadius="0" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="195" HeightRequest="75"/>
 
-                        <Label Style="{StaticResource label}" Text="0/14" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,20"/>
+                        <Label x:Name="doneTest" Style="{StaticResource label}" Text="0/5" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,20"/>
 
                         <Label Style="{StaticResource label}" Text="Tests" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20,0,0"/>
 

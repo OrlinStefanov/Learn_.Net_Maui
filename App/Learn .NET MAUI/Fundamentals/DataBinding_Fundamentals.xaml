@@ -39,9 +39,9 @@
                 <!--Questions make-->
                 <Label x:Name="First_Text" FontSize="20" Style="{StaticResource lbl}" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,-20,0,0"/>
 
-                <Image x:Name="IMage1" WidthRequest="50" HeightRequest="50" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,50,0,0"/>
+                <Image x:Name="IMage1" WidthRequest="300" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,50,0,0"/>
 
-                <Label x:Name="Second_Text" Style="{StaticResource lbl}" VerticalOptions="Start" Margin="0,100,0,0"/>
+                <Label x:Name="Second_Text" Style="{StaticResource lbl}" VerticalOptions="End" Margin="0,0,0,100"/>
             </Grid>
             <!-- Next/Previos Buttons -->
             <Grid HeightRequest="70" WidthRequest="300" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,0,0,0">

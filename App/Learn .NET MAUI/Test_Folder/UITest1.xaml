@@ -43,18 +43,21 @@
                 <Label x:Name="questionLbl" Text="Question" FontSize="22" Style="{StaticResource lbl}" HorizontalOptions="Center" VerticalOptions="Start"/>
 
                 <Grid Margin="0,100,0,0">
-                    <CheckBox Style="{StaticResource ch}" x:Name="check1" ClassId="ans1" VerticalOptions="Start" HorizontalOptions="Start" Margin="5,-10,0,0"/>
+                    <CheckBox CheckedChanged="check1_CheckedChanged" Style="{StaticResource ch}" x:Name="check1" ClassId="ans1" VerticalOptions="Start" HorizontalOptions="Start" Margin="5,-10,0,0"/>
                     <Label Margin="50,0,0,0" x:Name="ans1" Text="Answer1" FontSize="16" Style="{StaticResource lbl}" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Button CornerRadius="0" WidthRequest="300" HeightRequest="40" Clicked="Button_Clicked_1" BackgroundColor="Transparent" Margin="50,0,0,0" HorizontalOptions="Center" VerticalOptions="Start"/>
                 </Grid>
 
                 <Grid Margin="0,200,0,0">
-                    <CheckBox Style="{StaticResource ch}" x:Name="check2" ClassId="ans2" VerticalOptions="Start" HorizontalOptions="Start" Margin="5,-10,0,0"/>
+                    <CheckBox CheckedChanged="check1_CheckedChanged" Style="{StaticResource ch}" x:Name="check2" ClassId="ans2" VerticalOptions="Start" HorizontalOptions="Start" Margin="5,-10,0,0"/>
                     <Label Margin="50,0,0,0" x:Name="ans2" Text="Answer1" FontSize="16" Style="{StaticResource lbl}" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Button CornerRadius="0" WidthRequest="300" HeightRequest="40" Clicked="Button_Clicked_2" BackgroundColor="Transparent" Margin="50,0,0,0" HorizontalOptions="Center" VerticalOptions="Start"/>
                 </Grid>
 
                 <Grid Margin="0,300,0,0">
-                    <CheckBox Style="{StaticResource ch}" x:Name="check3" ClassId="ans3" VerticalOptions="Start" HorizontalOptions="Start" Margin="5,-10,0,0"/>
+                    <CheckBox CheckedChanged="check1_CheckedChanged" Style="{StaticResource ch}" x:Name="check3" ClassId="ans3" VerticalOptions="Start" HorizontalOptions="Start" Margin="5,-10,0,0"/>
                     <Label Margin="50,0,0,0" x:Name="ans3" Text="Answer1" FontSize="16" Style="{StaticResource lbl}" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Button CornerRadius="0" WidthRequest="300" HeightRequest="40" Clicked="Button_Clicked_3" BackgroundColor="Transparent" Margin="50,0,0,0" HorizontalOptions="Center" VerticalOptions="Start"/>
                 </Grid>
 
             </Grid>

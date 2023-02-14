@@ -71,5 +71,13 @@ namespace Learn_.NET_MAUI
 			}
 		}
 
+		public async void LoadTest(ProgressBar bar)
+		{
+			int num = Convert.ToInt16(await SecureStorage.GetAsync("UITestScore"));
+
+			bar.Progress = 0.145 * num;
+
+			if (bar.Progress >= 0.5) await SecureStorage.SetAsync("doneTests", "1");
+		}
 	}
 }

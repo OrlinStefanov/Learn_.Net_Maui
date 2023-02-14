@@ -16,12 +16,12 @@ public partial class DataBinding_Fundamentals : ContentPage
     {
         InitializeComponent();
 
-        img[0] = ".png";
-        img[1] = ".png";
-        img[2] = ".png";
-        img[3] = ".png";
-        img[4] = ".png";
-        img[5] = ".png";
+        img[0] = "basicbindings.png";
+        img[1] = "basicbindings.png";
+        img[2] = "bindingmode.png";
+        img[3] = "bindingvalueconverters.png";
+        img[4] = "bindingvalueconverters.png";
+        img[5] = "relativebinding.png";
     }
 
     protected override void OnAppearing()

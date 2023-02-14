@@ -15,6 +15,10 @@ public partial class UITest1 : ContentPage
 
     public int num;
 
+    int c1 = 0;
+    int c2 = 0;
+    int c3 = 0;
+
     public UITest1()
     {
         InitializeComponent();
@@ -59,14 +63,25 @@ public partial class UITest1 : ContentPage
             check1.IsChecked = false;
             check2.IsChecked = false;
             check3.IsChecked = false;
+            c1 = 0;
+            c2 = 0;
+            c3 = 0;
+        }
+
+        if (clicks == questions.Length - 1)
+        {
+            await DisplayAlert("Results", "Score: " + score.ToString() + "/7", "Ok");
+
+            await SecureStorage.SetAsync("UITestScore", score.ToString());
+
+            check1.IsVisible = false;
+            check2.IsVisible = false;
+            check3.IsVisible = false;
+
+            questionLbl.VerticalOptions = LayoutOptions.Center;
         }
 
         if (clicks == questions.Length)
-        {
-            await DisplayAlert("Results", "Score: " + score.ToString() + "/7", "Ok");
-        }
-
-        if (clicks == questions.Length + 1)
         {
             await Navigation.PopAsync();
         }
@@ -92,4 +107,72 @@ public partial class UITest1 : ContentPage
         test.SetQuestions(clicks, questions, questionLbl);
         test.SetAnswers(clicks, answer1, answer2, answer3, ans1, ans2, ans3);
     }
+
+    private void Button_Clicked_1(object sender, EventArgs e)
+    {
+        c1++;
+
+        switch (c1) {
+            case 1:
+                check1.IsChecked = true;
+                break;
+            case 2:
+                check1.IsChecked = false;
+                c1 = 0;
+                break;
+        }
+    }
+
+    private void Button_Clicked_2(object sender, EventArgs e)
+    {
+		c2++;
+
+		switch (c2)
+		{
+			case 1:
+				check2.IsChecked = true;
+				break;
+			case 2:
+				check2.IsChecked = false;
+				c2 = 0;
+				break;
+		}
+	}
+
+    private void Button_Clicked_3(object sender, EventArgs e)
+    {
+		c3++;
+
+		switch (c3)
+		{
+			case 1:
+				check3.IsChecked = true;
+				break;
+			case 2:
+				check3.IsChecked = false;
+				c3 = 0;
+				break;
+		}
+	}
+
+	private void check1_CheckedChanged(object sender, CheckedChangedEventArgs e)
+	{
+        if (check1.IsChecked == true)
+        {
+            check2.IsChecked = false;
+            check3.IsChecked = false;
+        }
+
+		if (check2.IsChecked == true)
+		{
+			check1.IsChecked = false;
+			check3.IsChecked = false;
+		}
+
+		if (check3.IsChecked == true)
+		{
+			check1.IsChecked = false;
+			check2.IsChecked = false;
+		}
+	}
 }

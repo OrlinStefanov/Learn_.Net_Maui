@@ -1291,3 +1291,27 @@ D:\Програмиране 1\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug
 D:\Програмиране 1\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\right_forward_white.scale-100.png
 D:\Програмиране 1\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lgb_icon.scale-100.png
 D:\Програмиране 1\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\syntax_img.scale-100.png
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Learn .NET MAUI.csproj.AssemblyReference.cache
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Learn .NET MAUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Learn .NET MAUI.dll
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\refint\Learn .NET MAUI.dll
+D:\School\OlimpiadaIT\Learn_.Net_Maui-main\App\Learn .NET MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Learn .NET MAUI.pdb

@@ -9,7 +9,23 @@ public partial class Main_Test : ContentPage
         InitializeComponent();
     }
 
-    private async void UITest1_Clicked(object sender, EventArgs e)
+	protected override void OnAppearing()
+	{
+		base.OnAppearing();
+
+        try
+        {
+			SaveProgress p = new SaveProgress();
+
+			p.LoadTest(progressUIT1);
+
+		} catch
+        {
+
+        }
+	}
+
+	private async void UITest1_Clicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new UITest1());
     }

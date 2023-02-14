@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Orlin programs\\Maui C#\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj": {}
+    "D:\\Orlin programs\\Maui C#\\HristoECherenGulub-main\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj": {}
   },
   "projects": {
-    "D:\\Orlin programs\\Maui C#\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj": {
+    "D:\\Orlin programs\\Maui C#\\HristoECherenGulub-main\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Orlin programs\\Maui C#\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj",
+        "projectUniqueName": "D:\\Orlin programs\\Maui C#\\HristoECherenGulub-main\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj",
         "projectName": "Learn .NET MAUI",
-        "projectPath": "D:\\Orlin programs\\Maui C#\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj",
+        "projectPath": "D:\\Orlin programs\\Maui C#\\HristoECherenGulub-main\\App\\Learn .NET MAUI\\Learn .NET MAUI.csproj",
         "packagesPath": "C:\\Users\\Orlin Stefanov\\.nuget\\packages\\",
-        "outputPath": "D:\\Orlin programs\\Maui C#\\App\\Learn .NET MAUI\\obj\\",
+        "outputPath": "D:\\Orlin programs\\Maui C#\\HristoECherenGulub-main\\App\\Learn .NET MAUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

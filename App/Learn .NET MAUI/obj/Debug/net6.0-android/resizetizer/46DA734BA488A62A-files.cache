@@ -2,6 +2,9 @@
 obj\Debug\net6.0-android\resizetizer\r\drawable\about_app_logo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\appear_basic.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\back_btn.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\basicbindings.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\bindingmode.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\bindingvalueconverters.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\bool_basic.jpg
 obj\Debug\net6.0-android\resizetizer\r\drawable\boxview.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\break_basic.png
@@ -9,13 +12,16 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\button.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\checkbox.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\classes_basic.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\comment_basic.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\consumecontroltemplate.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\contentpage.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\controls_basic.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\controltemplate.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\csharp_logo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\c_meaning.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\dark_mode.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\databinding_img.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\datasaving.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\datatemplate.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\datatime_basic.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\datepicker.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\elements_basic.png
@@ -36,6 +42,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\home_btn.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\horizontallayout.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\if_else_basic.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\imagebutton.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\inlinedatatemplate.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\input_basic.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\int_basic.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\label.png
@@ -55,6 +62,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\page_img.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\picker.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\progressbar.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\radiobutton.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\relativebinding.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\right_forward.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\right_forward_white.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\searchbar.png

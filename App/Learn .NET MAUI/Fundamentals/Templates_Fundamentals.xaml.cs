@@ -16,12 +16,12 @@ public partial class Templates_Fundamentals : ContentPage
     {
         InitializeComponent();
 
-        img[0] = "controltemplates.png";
-        img[1] = "controltemplates.png";
-        img[2] = "controltemplatesresults.png";
-        img[3] = "datatemplates.png";
-        img[4] = "datatemplates2.png";
-        img[5] = "datatemplates.png";
+        img[0] = "controltemplate.png";
+        img[1] = "controltemplate.png";
+        img[2] = "consumecontroltemplate.png";
+        img[3] = "datatemplate.png";
+        img[4] = "datatemplate.png";
+        img[5] = "inlinedatatemplate.png";
     }
 
     protected override void OnAppearing()

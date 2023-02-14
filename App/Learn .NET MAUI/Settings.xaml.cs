@@ -6,6 +6,7 @@ public partial class Settings : ContentPage
 {
 
     private int num = 0;
+    readonly string maxNum = "/16";
 
     public Settings()
     {
@@ -22,7 +23,14 @@ public partial class Settings : ContentPage
 
         try
         {
-            numberLessons.Text = await SecureStorage.GetAsync("numL") + "/16";
+            int num = Convert.ToInt16(await SecureStorage.GetAsync("numL"));
+
+            numberLessons.Text = num.ToString() + maxNum;
+
+            CheckStatus(num);
+
+            doneTest.Text = await SecureStorage.GetAsync("doneTests") + "/5";
+
         } catch
         {
 
@@ -153,6 +161,23 @@ public partial class Settings : ContentPage
         {
             Application.Current.UserAppTheme = AppTheme.Light;
             num = 0;
+        }
+    }
+
+    private void CheckStatus(int num)
+    {
+        if (num <= 3)
+        {
+            statusBtn.Text = "Newborn";
+        } else if (num > 3 && num <= 8)
+        {
+            statusBtn.Text = "Begginer";
+		} else if (num > 8 && num <= 11)
+        {
+            statusBtn.Text = "Average";
+        } else if (num > 11 && num <= 16)
+        {
+            statusBtn.Text = "Pro";
         }
     }
 
